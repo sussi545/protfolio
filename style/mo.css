@@ -1,0 +1,180 @@
+
+	/*background:linear-gradient(135deg,rgb(75,13,143) 0%, rgb(250,42,143) 100%);*/
+body{
+	background:linear-gradient(135deg,rgb(75,13,143) 0%, rgb(250,42,143) 100%);
+}
+*
+{
+box-sizing: border-box;
+}
+
+.flexcontainer{
+	display: flex;
+	flex-direction: row;
+	width: 96%;
+	padding: 1%;
+	margin: 1%;
+	border:1px solid lightgrey;
+	box-shadow: 5px 8px #000;
+
+	
+}
+.a img{
+	width: 150px;
+	height: 150px;
+	border-radius: 20px;
+}
+.b{
+	padding-left: 1020px;
+	font-size: 20px;
+	color: #7fff00;
+}
+.c img{
+	width:98%;
+	height: 280px;
+	margin-top: 10px;
+	padding-left: 1%;
+
+}
+.hea1
+{
+	font-size: 17px;
+	color:#ffffff;
+}
+.d{
+	font-family:algerian ;
+	color: white;
+	padding-left: 1%;
+}
+h3{
+	font-family: broadway;
+	color: #b22222;
+}
+.e{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	font-size: 20px;
+	height:900%;
+
+}
+.image img{
+	width: 350px;
+	height: 150px;
+	border-radius: 20px;
+}
+.image{
+	width: 33.3%;
+	margin: 1%;
+	padding: 1%;
+	border:2px solid lightgrey;
+	border-radius: 4%;
+	background-color: #fda4ba;
+	box-shadow: 5px 8px #000;
+
+}
+p{
+	font-family: consolas;
+	color:#000;
+}
+button{
+	width: 90px;
+	height: 40px;
+	background-color: #00ffff;
+	color:#000;
+	border-radius: 5px;
+	border:none;
+}
+footer{
+	height: 60px;
+	
+	color: white;
+	font-family: cursive;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 1%;
+	border:2px solid lightgrey;
+	box-shadow: 5px 8px #000;
+
+}
+
+/*mobile mode*/
+@media only screen and (min-width:320px) and (max-width:767px)
+{
+	.flexcontainer{
+		flex-direction: column;
+		width: 98%;
+		height: 230px;
+		padding: 0px;
+	}
+	.a{
+		padding-left: 95px;
+		padding-top: 10px;
+	}
+	.b{
+		padding: 0px;
+		text-align: center;
+	}
+	.c img{
+		width: 98%;
+		padding-left: 1%;
+	}
+	h2{
+		text-align: center;
+	}
+	.e {
+		display: flex;
+		flex-direction: column;
+	}
+	.image{
+		width: 94%;
+		padding: 2%;
+		background-color: #ffb6c1;
+	}
+	.image img{
+		width: 96%;
+	}
+	footer{
+		width: 100%;
+		margin: 1%;
+		height: 22%;
+	}
+
+}
+/*Desktop Mode*/
+		@media only screen and (min-width: 768px) and (max-width: 1024px)
+		{
+			.flexcontainer
+			{
+				
+				padding-left:10px;
+
+			}
+			.b
+			{
+				padding-left: 350px;
+			}
+			.e
+			{
+				display: flex;
+		 
+		        flex-wrap: wrap;
+		        justify-content: space-around;
+
+		       
+		        width:105%;
+
+			}
+			.e img
+			{
+				width: 90%;
+			}
+			footer{
+		width: 100%;
+		margin: 1%;
+		height: 22%;
+	}
+
+
+}
